@@ -34,8 +34,13 @@
         "no-duplicate-imports": "error",
         "linebreak-style": ["error", "unix"],
         "semi": ["error", "always"],
-        "react/prop-types": "off",
-        "react/no-string-refs": ["warn"],
+        "object-curly-spacing": ["error", "always"],
+        "array-bracket-spacing": ["error", "never"],
+        "react/require-default-props": ["error"],
+        "react/default-props-match-prop-types": ["error"],
+        "react/sort-prop-types": ["error"],
+        "react/prop-types": ["error"],
+        "react/no-string-refs": ["warn"]
     },
     "settings": {
         "react" : {
