@@ -14,6 +14,7 @@ export type StyleEmberTheme = {
     tableHeaderBg: '#F7F7F7',
     divider: '#E1E1E1',
     rowSelected: '#EFEDFD',
+    cardBg : '#fff',
   };
   
   const fontSizes = {
@@ -46,6 +47,7 @@ export type StyleEmberTheme = {
       tableHeaderBg: '#F7F7F7',
       divider: '#E1E1E1',
       rowSelected: '#EFEDFD',
+      cardBg : '#3A1078',
     },
   };
   
