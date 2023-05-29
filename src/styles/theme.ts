@@ -1,4 +1,4 @@
-export interface StyleEmberTheme {
+export type StyleEmberTheme = {
     colors: { [key in keyof typeof colors]: string };
     breakpoints: { [key in keyof typeof breakpoints]: string };
     fontSizes: { [key in keyof typeof fontSizes]: string };
@@ -33,6 +33,21 @@ export interface StyleEmberTheme {
     breakpoints,
     fontSizes,
   };
+
+ const darkTheme = {
+    ...theme,
+    colors: {
+      primary: '#3A1078',
+      accent: '#EFEDFD',
+      secondary: '#F7F7F7',
+      black: '#000',
+      white: '#fff',
+      border: '#999',
+      tableHeaderBg: '#F7F7F7',
+      divider: '#E1E1E1',
+      rowSelected: '#EFEDFD',
+    },
+  };
   
-  export { theme };
+  export { theme, darkTheme };
   

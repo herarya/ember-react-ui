@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 declare module 'styled-components' {
-  export interface ThemedStyledComponentsModule<T> {
+  export type ThemedStyledComponentsModule<T> = {
     createGlobalStyle(
       strings: TemplateStringsArray,
       ...interpolations: SimpleInterpolation[]

@@ -3,6 +3,8 @@ import { ThemedStyledComponentsModule } from 'styled-components';
 
 import { StyleEmberTheme } from './theme';
 
+// https://stackoverflow.com/questions/55170801/how-to-type-a-styled-component-without-losing-any-prop-with-typescript
+
 const {
   default: styled,
   css,
