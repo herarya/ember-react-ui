@@ -2,8 +2,7 @@ import { composeStories } from '@storybook/react';
 import { fireEvent, render, screen } from '@testing-library/react';
 import * as stories from '../Checkbox.stories';
 
-
-const { Checked, UnChecked } = composeStories(stories);
+const { Checked, UnChecked, CheckedNoOnChange } = composeStories(stories);
 
 test('should render checkbox is checked', () => {
     render(<Checked />);
@@ -17,10 +16,26 @@ test('should render checkbox is unchecked', () => {
     expect(checked).not.toBeChecked();
 });
 
-test('It should have input value', () => {
-    const onChange = jest.fn();
-    const { getByRole } = render(<UnChecked onChange={onChange}/>);
+test('It should have input value handle checked on change', () => {
+    const onChangeMock = jest.fn();
+    const { getByRole } = render(<UnChecked onChange={onChangeMock}/>);
     const checkbox = getByRole('checkbox');
     fireEvent.click(checkbox);
-    expect(onChange).toBeCalledWith(true, 'checkbox-value-here');
+    expect(onChangeMock).toBeCalledWith(true, 'checkbox-value-here');
 });
+
+test('It should have input value handle unchecked on change', () => {
+    const onChangeMock = jest.fn();
+    const { getByRole } = render(<Checked onChange={onChangeMock}/>);
+    const checkbox = getByRole('checkbox');
+    fireEvent.click(checkbox);
+    expect(onChangeMock).toBeCalledWith(false, 'checkbox-value-here');
+});
+
+test('It should handleChangeCheckBox', () => {
+    const { getByRole } = render(<CheckedNoOnChange isChecked/>);
+    const checkbox = getByRole('checkbox');
+    fireEvent.click(checkbox);
+    expect(checkbox).not.toBeChecked();
+});
+

@@ -4,7 +4,7 @@ import { CheckBoxProps } from './types';
 
 const CheckBox: React.FC<CheckBoxProps> = ({
   name,
-  isChecked = false,
+  isChecked,
   value,
   onChange,
 }: CheckBoxProps) => {
@@ -22,7 +22,7 @@ const CheckBox: React.FC<CheckBoxProps> = ({
     }
     setChecked((currentChecked) => !currentChecked);
   };
-
+  
   return (
     <CheckboxStyled
       ref={checkRef}

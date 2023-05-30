@@ -21,15 +21,16 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --setupFiles ./setupFile.ts",
-    "coverage": "react-scripts test --setupFiles ./setupFile.ts --coverage",
+    "test": "react-scripts test --watchAll=false --setupFiles ./setupFile.ts",
+    "coverage": "react-scripts test --coverage --watchAll=false --setupFiles ./setupFile.ts",
     "eject": "react-scripts eject",
     "format": "prettier --write 'src/**/*.{tsx,css,md,json}' --config ./.prettierrc",
-    "lint": "eslint src/**/*.{ts,tsx}",
-    "lint:fix": "eslint --fix 'src/**/*.{ts,tsx}'",
+    "lint:js": "eslint src/",
+    "lint:js:fix": "yarn lint:js --fix",
     "storybook": "ESLINT_NO_DEV_ERRORS=true storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test-storybook": "test-storybook"
+    "test-storybook": "test-storybook",
+    "generate-lcov-report" : "npx nyc report --reporter=lcov -t coverage/storybook --report-dir coverage/storybook"
   },
   "eslintConfig": {
     "extends": [

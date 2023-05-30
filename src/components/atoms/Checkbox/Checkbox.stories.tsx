@@ -29,4 +29,11 @@ export const UnChecked: Story = {
   },
 };
 
+export const CheckedNoOnChange: Story = {
+  args: {
+    isChecked: true,
+    value: 'checkbox-value-here',
+  },
+};
+
 
