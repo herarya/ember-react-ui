@@ -3,8 +3,9 @@ import CheckboxStyled from './styles/checkbox';
 import { CheckBoxProps } from './types';
 
 const CheckBox: React.FC<CheckBoxProps> = ({
+  id,
   name,
-  isChecked,
+  isChecked = false,
   value,
   onChange,
 }: CheckBoxProps) => {
@@ -25,6 +26,7 @@ const CheckBox: React.FC<CheckBoxProps> = ({
   
   return (
     <CheckboxStyled
+      id={id}
       ref={checkRef}
       name={name}
       onChange={handleChangeCheckBox}
