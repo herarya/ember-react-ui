@@ -7,7 +7,6 @@ const CardStyled = styled.div`
   border-radius: 16px;
   padding: 0;
   margin: 20px;
-  padding-bottom: 16px;
 
   @media only screen and (max-width: ${({ theme: { breakpoints } }) => breakpoints.mobile}) {
     border-radius: 8px;

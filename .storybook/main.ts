@@ -1,4 +1,5 @@
 import type { StorybookConfig } from '@storybook/react-webpack5';
+
 const config: StorybookConfig = {
   "stories": [
     "../src/**/*.mdx",
@@ -10,7 +11,8 @@ const config: StorybookConfig = {
     "@storybook/preset-create-react-app",
     "@storybook/addon-interactions",
     "@storybook/addon-a11y",
-    "@storybook/addon-toolbars"
+    "@storybook/addon-toolbars",
+    "@storybook/addon-coverage"
   ],
   "framework": {
     "name": "@storybook/react-webpack5",

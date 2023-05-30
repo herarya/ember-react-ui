@@ -1,6 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import Card from './Card';
-import React from 'react';
 
 const meta: Meta<typeof Card> = {
   title: 'Ember UI/Atoms/Card',
@@ -15,6 +14,6 @@ type Story = StoryObj<typeof Card>;
 
 export const Default: Story = {
   args: {
-    content : <div>Card Content</div>
+    content : <div style={{ padding: 20 }}>Card Content</div>
   },
 };

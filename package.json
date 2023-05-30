@@ -21,7 +21,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --setupFiles ./setupFile.ts",
+    "coverage": "react-scripts test --setupFiles ./setupFile.ts --coverage",
     "eject": "react-scripts eject",
     "format": "prettier --write 'src/**/*.{tsx,css,md,json}' --config ./.prettierrc",
     "lint": "eslint src/**/*.{ts,tsx}",
@@ -49,6 +50,7 @@
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^7.0.18",
+    "@storybook/addon-coverage": "^0.0.8",
     "@storybook/addon-essentials": "^7.0.18",
     "@storybook/addon-interactions": "^7.0.18",
     "@storybook/addon-links": "^7.0.18",
