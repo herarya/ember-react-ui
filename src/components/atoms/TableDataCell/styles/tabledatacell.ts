@@ -5,11 +5,15 @@ type Itd = {
    * The variant of cell allows values:
    * responsive , center,  input
    */
-  variant: 'default' | 'responsive' | 'center' | 'input';
-  textAlign: string;
+  variant: 'default' | 'responsive' | 'input';
+   /**
+  * Used to set text align
+  * @defaultValue left
+  */
+   textAlign: 'left' | 'center' | 'right';
 }
 
-export const ColumnStyled = styled.td<Itd>`
+export const TableDataCellStyled = styled.td<Itd>`
   font-family: "Avenir-Book";
   letter-spacing: 0;
   font-weight: 400;
@@ -29,9 +33,6 @@ export const ColumnStyled = styled.td<Itd>`
       height: 30px;
     `}
   }
-
-
-  
 
   @media only screen and (max-width: ${({ theme: { breakpoints } }) =>
     breakpoints.mobile}) {

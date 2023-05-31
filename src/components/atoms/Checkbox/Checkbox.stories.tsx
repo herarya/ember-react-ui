@@ -13,6 +13,12 @@ export default meta;
 
 type Story = StoryObj<typeof Checkbox>;
 
+export const Default: Story = {
+  args: {
+    value: 'checkbox-value-here',
+  },
+};
+
 export const Checked: Story = {
   args: {
     isChecked: true,
@@ -28,12 +34,4 @@ export const UnChecked: Story = {
     onChange : action('onChange')
   },
 };
-
-export const CheckedNoOnChange: Story = {
-  args: {
-    isChecked: true,
-    value: 'checkbox-value-here',
-  },
-};
-
 

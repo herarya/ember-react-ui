@@ -2,8 +2,11 @@ import { composeStories } from '@storybook/react';
 import { fireEvent, render, screen } from '@testing-library/react';
 import * as stories from '../Checkbox.stories';
 
-const { Checked, UnChecked, CheckedNoOnChange } = composeStories(stories);
-
+const { Default, Checked, UnChecked } = composeStories(stories);
+test('should render checkbox', () => {
+    const container = render(<Default />);
+    expect(container).toMatchSnapshot();
+});
 test('should render checkbox is checked', () => {
     render(<Checked />);
     const checkbox = screen.getByRole('checkbox');
@@ -33,7 +36,7 @@ test('It should have input value handle unchecked on change', () => {
 });
 
 test('It should handleChangeCheckBox', () => {
-    const { getByRole } = render(<CheckedNoOnChange isChecked/>);
+    const { getByRole } = render(<Default isChecked/>);
     const checkbox = getByRole('checkbox');
     fireEvent.click(checkbox);
     expect(checkbox).not.toBeChecked();

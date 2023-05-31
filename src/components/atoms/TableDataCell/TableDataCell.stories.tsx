@@ -2,30 +2,31 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import React from 'react';
 
-import Column from './Column';
+import TableDataCell from './TableDataCell';
 import CheckBox from '../Checkbox/Checkbox';
 
-const meta: Meta<typeof Column> = {
-  title: 'Ember UI/Atoms/Column',
-  component: Column,
+const meta: Meta<typeof TableDataCell> = {
+  title: 'Ember UI/Atoms/TableDataCell',
+  component: TableDataCell,
   tags: ['autodocs']
 };
 
 
 export default meta;
 
-type Story = StoryObj<typeof Column>;
+type Story = StoryObj<typeof TableDataCell>;
 
 // fix Warning: validateDOMNesting(...): <td> cannot appear as a child of <div>.
 const ColumnTemplate: Story = {
     render: ({ ...args }) => {
       return (
         <table>
-            <thead>
-            <tr>
-                <Column {...args}/>
-            </tr>
-            </thead>
+          <tbody>
+          <tr>
+              <TableDataCell {...args}/>
+           </tr>
+          </tbody>
+
         </table>
       );
     },
@@ -50,13 +51,15 @@ export const Responsive: Story = {
 export const Input: Story = {
     render: (args) => (
         <table>
-            <thead>
-                <tr>
-                    <Column {...args}>
-                        <CheckBox isChecked={true} name="test" id="id-checked" value="checked" />
-                    </Column>
-                </tr>
-            </thead>
+          <tbody> 
+            <tr>
+              <TableDataCell {...args}>
+                 <CheckBox isChecked={true} name="test" id="id-checked" value="checked" />
+               </TableDataCell>
+              </tr>
+                
+                </tbody>
+             
         </table> 
     ),
     args: {

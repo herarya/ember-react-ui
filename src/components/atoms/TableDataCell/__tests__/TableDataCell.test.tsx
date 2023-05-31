@@ -1,6 +1,6 @@
 import { composeStories } from '@storybook/react';
 import { render, screen } from '@testing-library/react';
-import * as stories from '../Column.stories';
+import * as stories from '../TableDataCell.stories';
 
 const { Default, Responsive, Input } = composeStories(stories);
 
