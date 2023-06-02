@@ -2,9 +2,9 @@ import CardStyled from './styles/card';
 import { CardProps } from './types';
 
 const Card = ({
-   content,
+  children,
 }: CardProps) => {
-  return <CardStyled>{content}</CardStyled>;
+  return <CardStyled>{children}</CardStyled>;
 };
 
 export default Card;

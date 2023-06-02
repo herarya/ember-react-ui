@@ -1,0 +1,1461 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Table Responsive Mobile 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-dhKdcB gZGTGF"
+      >
+        <div
+          style="padding-bottom: 10px;"
+        >
+          <table
+            class="sc-jXbUNg bHcGNP"
+          >
+            <caption>
+              Contract details
+            </caption>
+            <tbody>
+              <tr
+                class="sc-imWYAI cbfsAv"
+              >
+                <td />
+                <td
+                  class="sc-eqUAAy kWQDlx"
+                >
+                  <input
+                    autocomplete="off"
+                    class="sc-gEvEer hgjmtR"
+                    id="fbdc5d99-c117-4722-9a84-fc463fd6bbb7"
+                    name="contact_name"
+                    type="radio"
+                    value="fbdc5d99-c117-4722-9a84-fc463fd6bbb7"
+                  />
+                </td>
+                <td
+                  class="sc-eqUAAy ezmnUk"
+                >
+                  <label>
+                    Name
+                    : 
+                  </label>
+                  Mavis Chen 1
+                </td>
+                <td
+                  class="sc-eqUAAy ezmnUk"
+                >
+                  <label>
+                    Mobile
+                    : 
+                  </label>
+                  8899 7654
+                </td>
+                <td
+                  class="sc-eqUAAy ezmnUk"
+                >
+                  <label>
+                    Expiry
+                    : 
+                  </label>
+                  Dec 2022
+                </td>
+                <td
+                  class="sc-eqUAAy ezmnUk"
+                >
+                  <label>
+                    Penalty
+                    : 
+                  </label>
+                  $200
+                </td>
+                <td />
+              </tr>
+              <tr
+                class="sc-imWYAI cbfsAv"
+              >
+                <td />
+                <td
+                  class="sc-eqUAAy kWQDlx"
+                >
+                  <input
+                    autocomplete="off"
+                    class="sc-gEvEer hgjmtR"
+                    id="6844f30e-3b52-4abd-8875-e4796b4231a314"
+                    name="contact_name"
+                    type="radio"
+                    value="6844f30e-3b52-4abd-8875-e4796b4231a314"
+                  />
+                </td>
+                <td
+                  class="sc-eqUAAy ezmnUk"
+                >
+                  <label>
+                    Name
+                    : 
+                  </label>
+                  Rodney Artichoke
+                </td>
+                <td
+                  class="sc-eqUAAy ezmnUk"
+                >
+                  <label>
+                    Mobile
+                    : 
+                  </label>
+                  9988 7676
+                </td>
+                <td
+                  class="sc-eqUAAy ezmnUk"
+                >
+                  <label>
+                    Expiry
+                    : 
+                  </label>
+                  Dec 2022
+                </td>
+                <td
+                  class="sc-eqUAAy ezmnUk"
+                >
+                  <label>
+                    Penalty
+                    : 
+                  </label>
+                  $300
+                </td>
+                <td />
+              </tr>
+              <tr
+                class="sc-imWYAI cbfsAv"
+              >
+                <td />
+                <td
+                  class="sc-eqUAAy kWQDlx"
+                >
+                  <input
+                    autocomplete="off"
+                    class="sc-gEvEer hgjmtR"
+                    id="6844f30e-3b52-4abd-8875-e4796b41a314"
+                    name="contact_name"
+                    type="radio"
+                    value="6844f30e-3b52-4abd-8875-e4796b41a314"
+                  />
+                </td>
+                <td
+                  class="sc-eqUAAy ezmnUk"
+                >
+                  <label>
+                    Name
+                    : 
+                  </label>
+                  Valentino Morose
+                </td>
+                <td
+                  class="sc-eqUAAy ezmnUk"
+                >
+                  <label>
+                    Mobile
+                    : 
+                  </label>
+                  9988 7626
+                </td>
+                <td
+                  class="sc-eqUAAy ezmnUk"
+                >
+                  <label>
+                    Expiry
+                    : 
+                  </label>
+                  Dec 2022
+                </td>
+                <td
+                  class="sc-eqUAAy ezmnUk"
+                >
+                  <label>
+                    Penalty
+                    : 
+                  </label>
+                  $60
+                </td>
+                <td />
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-dhKdcB gZGTGF"
+    >
+      <div
+        style="padding-bottom: 10px;"
+      >
+        <table
+          class="sc-jXbUNg bHcGNP"
+        >
+          <caption>
+            Contract details
+          </caption>
+          <tbody>
+            <tr
+              class="sc-imWYAI cbfsAv"
+            >
+              <td />
+              <td
+                class="sc-eqUAAy kWQDlx"
+              >
+                <input
+                  autocomplete="off"
+                  class="sc-gEvEer hgjmtR"
+                  id="fbdc5d99-c117-4722-9a84-fc463fd6bbb7"
+                  name="contact_name"
+                  type="radio"
+                  value="fbdc5d99-c117-4722-9a84-fc463fd6bbb7"
+                />
+              </td>
+              <td
+                class="sc-eqUAAy ezmnUk"
+              >
+                <label>
+                  Name
+                  : 
+                </label>
+                Mavis Chen 1
+              </td>
+              <td
+                class="sc-eqUAAy ezmnUk"
+              >
+                <label>
+                  Mobile
+                  : 
+                </label>
+                8899 7654
+              </td>
+              <td
+                class="sc-eqUAAy ezmnUk"
+              >
+                <label>
+                  Expiry
+                  : 
+                </label>
+                Dec 2022
+              </td>
+              <td
+                class="sc-eqUAAy ezmnUk"
+              >
+                <label>
+                  Penalty
+                  : 
+                </label>
+                $200
+              </td>
+              <td />
+            </tr>
+            <tr
+              class="sc-imWYAI cbfsAv"
+            >
+              <td />
+              <td
+                class="sc-eqUAAy kWQDlx"
+              >
+                <input
+                  autocomplete="off"
+                  class="sc-gEvEer hgjmtR"
+                  id="6844f30e-3b52-4abd-8875-e4796b4231a314"
+                  name="contact_name"
+                  type="radio"
+                  value="6844f30e-3b52-4abd-8875-e4796b4231a314"
+                />
+              </td>
+              <td
+                class="sc-eqUAAy ezmnUk"
+              >
+                <label>
+                  Name
+                  : 
+                </label>
+                Rodney Artichoke
+              </td>
+              <td
+                class="sc-eqUAAy ezmnUk"
+              >
+                <label>
+                  Mobile
+                  : 
+                </label>
+                9988 7676
+              </td>
+              <td
+                class="sc-eqUAAy ezmnUk"
+              >
+                <label>
+                  Expiry
+                  : 
+                </label>
+                Dec 2022
+              </td>
+              <td
+                class="sc-eqUAAy ezmnUk"
+              >
+                <label>
+                  Penalty
+                  : 
+                </label>
+                $300
+              </td>
+              <td />
+            </tr>
+            <tr
+              class="sc-imWYAI cbfsAv"
+            >
+              <td />
+              <td
+                class="sc-eqUAAy kWQDlx"
+              >
+                <input
+                  autocomplete="off"
+                  class="sc-gEvEer hgjmtR"
+                  id="6844f30e-3b52-4abd-8875-e4796b41a314"
+                  name="contact_name"
+                  type="radio"
+                  value="6844f30e-3b52-4abd-8875-e4796b41a314"
+                />
+              </td>
+              <td
+                class="sc-eqUAAy ezmnUk"
+              >
+                <label>
+                  Name
+                  : 
+                </label>
+                Valentino Morose
+              </td>
+              <td
+                class="sc-eqUAAy ezmnUk"
+              >
+                <label>
+                  Mobile
+                  : 
+                </label>
+                9988 7626
+              </td>
+              <td
+                class="sc-eqUAAy ezmnUk"
+              >
+                <label>
+                  Expiry
+                  : 
+                </label>
+                Dec 2022
+              </td>
+              <td
+                class="sc-eqUAAy ezmnUk"
+              >
+                <label>
+                  Penalty
+                  : 
+                </label>
+                $60
+              </td>
+              <td />
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`should render Table With Checkbox 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-dhKdcB gZGTGF"
+      >
+        <div
+          style="padding-bottom: 10px;"
+        >
+          <table
+            class="sc-jXbUNg fSYcOH"
+          >
+            <thead>
+              <tr>
+                <td />
+                <th
+                  class="sc-kAyceB JQBoV"
+                >
+                  <div
+                    class="sc-gsFSXq dTCnZq"
+                  />
+                </th>
+                <th
+                  class="sc-kAyceB JQBoV"
+                >
+                  <div
+                    class="sc-gsFSXq dTCnZq"
+                  >
+                    BRN
+                  </div>
+                </th>
+                <th
+                  class="sc-kAyceB JQBoV"
+                >
+                  <div
+                    class="sc-gsFSXq dTCnZq"
+                  >
+                    Company Name
+                  </div>
+                </th>
+                <td />
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                class="sc-imWYAI cbfsAv"
+              >
+                <td />
+                <td
+                  class="sc-eqUAAy kWQDlx"
+                >
+                  <input
+                    class="sc-aXZVg dliEdL"
+                    id="e1d841e3-ff0a-45a2-8e2e-6c2069b5eaba6c2069b5eaba3"
+                    name="id"
+                    type="checkbox"
+                    value="e1d841e3-ff0a-45a2-8e2e-6c2069b5eaba6c2069b5eaba3"
+                  />
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  198702333K
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  Blue Ocean International
+                </td>
+                <td />
+              </tr>
+              <tr
+                class="sc-imWYAI cbfsAv"
+              >
+                <td />
+                <td
+                  class="sc-eqUAAy kWQDlx"
+                >
+                  <input
+                    class="sc-aXZVg dliEdL"
+                    id="e1d841e3-ff0a-45a2-8e2e-6c2069b5eaba6c2069b5eaba34"
+                    name="id"
+                    type="checkbox"
+                    value="e1d841e3-ff0a-45a2-8e2e-6c2069b5eaba6c2069b5eaba34"
+                  />
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  198900364N
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  Red Electronics
+                </td>
+                <td />
+              </tr>
+              <tr
+                class="sc-imWYAI cbfsAv"
+              >
+                <td />
+                <td
+                  class="sc-eqUAAy kWQDlx"
+                >
+                  <input
+                    class="sc-aXZVg dliEdL"
+                    id="e1d841e3-ff0a-45a2-8e2e-6c2069b5eaba6c2069b5eaba35"
+                    name="id"
+                    type="checkbox"
+                    value="e1d841e3-ff0a-45a2-8e2e-6c2069b5eaba6c2069b5eaba35"
+                  />
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  196800306E
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  Purple Automobiles
+                </td>
+                <td />
+              </tr>
+              <tr
+                class="sc-imWYAI cbfsAv"
+              >
+                <td />
+                <td
+                  class="sc-eqUAAy kWQDlx"
+                >
+                  <input
+                    class="sc-aXZVg dliEdL"
+                    id="e1d841e3-ff0a-45a2-8e2e-6c2069b5eaba6c2069b5eaba1"
+                    name="id"
+                    type="checkbox"
+                    value="e1d841e3-ff0a-45a2-8e2e-6c2069b5eaba6c2069b5eaba1"
+                  />
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  199131124V
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  Diamond Interiors Holdings
+                </td>
+                <td />
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-dhKdcB gZGTGF"
+    >
+      <div
+        style="padding-bottom: 10px;"
+      >
+        <table
+          class="sc-jXbUNg fSYcOH"
+        >
+          <thead>
+            <tr>
+              <td />
+              <th
+                class="sc-kAyceB JQBoV"
+              >
+                <div
+                  class="sc-gsFSXq dTCnZq"
+                />
+              </th>
+              <th
+                class="sc-kAyceB JQBoV"
+              >
+                <div
+                  class="sc-gsFSXq dTCnZq"
+                >
+                  BRN
+                </div>
+              </th>
+              <th
+                class="sc-kAyceB JQBoV"
+              >
+                <div
+                  class="sc-gsFSXq dTCnZq"
+                >
+                  Company Name
+                </div>
+              </th>
+              <td />
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              class="sc-imWYAI cbfsAv"
+            >
+              <td />
+              <td
+                class="sc-eqUAAy kWQDlx"
+              >
+                <input
+                  class="sc-aXZVg dliEdL"
+                  id="e1d841e3-ff0a-45a2-8e2e-6c2069b5eaba6c2069b5eaba3"
+                  name="id"
+                  type="checkbox"
+                  value="e1d841e3-ff0a-45a2-8e2e-6c2069b5eaba6c2069b5eaba3"
+                />
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                198702333K
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                Blue Ocean International
+              </td>
+              <td />
+            </tr>
+            <tr
+              class="sc-imWYAI cbfsAv"
+            >
+              <td />
+              <td
+                class="sc-eqUAAy kWQDlx"
+              >
+                <input
+                  class="sc-aXZVg dliEdL"
+                  id="e1d841e3-ff0a-45a2-8e2e-6c2069b5eaba6c2069b5eaba34"
+                  name="id"
+                  type="checkbox"
+                  value="e1d841e3-ff0a-45a2-8e2e-6c2069b5eaba6c2069b5eaba34"
+                />
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                198900364N
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                Red Electronics
+              </td>
+              <td />
+            </tr>
+            <tr
+              class="sc-imWYAI cbfsAv"
+            >
+              <td />
+              <td
+                class="sc-eqUAAy kWQDlx"
+              >
+                <input
+                  class="sc-aXZVg dliEdL"
+                  id="e1d841e3-ff0a-45a2-8e2e-6c2069b5eaba6c2069b5eaba35"
+                  name="id"
+                  type="checkbox"
+                  value="e1d841e3-ff0a-45a2-8e2e-6c2069b5eaba6c2069b5eaba35"
+                />
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                196800306E
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                Purple Automobiles
+              </td>
+              <td />
+            </tr>
+            <tr
+              class="sc-imWYAI cbfsAv"
+            >
+              <td />
+              <td
+                class="sc-eqUAAy kWQDlx"
+              >
+                <input
+                  class="sc-aXZVg dliEdL"
+                  id="e1d841e3-ff0a-45a2-8e2e-6c2069b5eaba6c2069b5eaba1"
+                  name="id"
+                  type="checkbox"
+                  value="e1d841e3-ff0a-45a2-8e2e-6c2069b5eaba6c2069b5eaba1"
+                />
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                199131124V
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                Diamond Interiors Holdings
+              </td>
+              <td />
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`should render Table With Sorting 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-dhKdcB gZGTGF"
+      >
+        <div
+          style="padding-bottom: 10px;"
+        >
+          <table
+            class="sc-jXbUNg fSYcOH"
+          >
+            <thead>
+              <tr>
+                <td />
+                <th
+                  class="sc-kAyceB dPhgSa"
+                >
+                  <div
+                    class="sc-gsFSXq bUOhBw"
+                  >
+                    Operator
+                  </div>
+                  <div>
+                    <button
+                      class="sc-fqkvVR hSIHml"
+                    />
+                  </div>
+                </th>
+                <th
+                  class="sc-kAyceB dPhgSa"
+                >
+                  <div
+                    class="sc-gsFSXq bUOhBw"
+                  >
+                    Headset Display
+                  </div>
+                  <div>
+                    <button
+                      class="sc-fqkvVR hSIHml"
+                    />
+                  </div>
+                </th>
+                <th
+                  class="sc-kAyceB JQBoV"
+                >
+                  <div
+                    class="sc-gsFSXq dTCnZq"
+                  >
+                    3G Availability
+                  </div>
+                </th>
+                <td />
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                class="sc-imWYAI cbfsAv"
+              >
+                <td />
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  *Celcom Axiata (LTE)
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  CELCOM / My Celcom / 502 19
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  Yes
+                </td>
+                <td />
+              </tr>
+              <tr
+                class="sc-imWYAI cbfsAv"
+              >
+                <td />
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  *DiGi Telecom (LTE)
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  DiGi 1800 / DiGi / MYMY18
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  Yes
+                </td>
+                <td />
+              </tr>
+              <tr
+                class="sc-imWYAI cbfsAv"
+              >
+                <td />
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  *Maxis (LTE)
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  U Mobile / MYS 18 / MY 18
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  Yes
+                </td>
+                <td />
+              </tr>
+              <tr
+                class="sc-imWYAI cbfsAv"
+              >
+                <td />
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  U Mobile (LTE)
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  U Mobile / MYS 18 / MY 18
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  Yes
+                </td>
+                <td />
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-dhKdcB gZGTGF"
+    >
+      <div
+        style="padding-bottom: 10px;"
+      >
+        <table
+          class="sc-jXbUNg fSYcOH"
+        >
+          <thead>
+            <tr>
+              <td />
+              <th
+                class="sc-kAyceB dPhgSa"
+              >
+                <div
+                  class="sc-gsFSXq bUOhBw"
+                >
+                  Operator
+                </div>
+                <div>
+                  <button
+                    class="sc-fqkvVR hSIHml"
+                  />
+                </div>
+              </th>
+              <th
+                class="sc-kAyceB dPhgSa"
+              >
+                <div
+                  class="sc-gsFSXq bUOhBw"
+                >
+                  Headset Display
+                </div>
+                <div>
+                  <button
+                    class="sc-fqkvVR hSIHml"
+                  />
+                </div>
+              </th>
+              <th
+                class="sc-kAyceB JQBoV"
+              >
+                <div
+                  class="sc-gsFSXq dTCnZq"
+                >
+                  3G Availability
+                </div>
+              </th>
+              <td />
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              class="sc-imWYAI cbfsAv"
+            >
+              <td />
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                *Celcom Axiata (LTE)
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                CELCOM / My Celcom / 502 19
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                Yes
+              </td>
+              <td />
+            </tr>
+            <tr
+              class="sc-imWYAI cbfsAv"
+            >
+              <td />
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                *DiGi Telecom (LTE)
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                DiGi 1800 / DiGi / MYMY18
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                Yes
+              </td>
+              <td />
+            </tr>
+            <tr
+              class="sc-imWYAI cbfsAv"
+            >
+              <td />
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                *Maxis (LTE)
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                U Mobile / MYS 18 / MY 18
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                Yes
+              </td>
+              <td />
+            </tr>
+            <tr
+              class="sc-imWYAI cbfsAv"
+            >
+              <td />
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                U Mobile (LTE)
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                U Mobile / MYS 18 / MY 18
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                Yes
+              </td>
+              <td />
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`should render table 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-dhKdcB gZGTGF"
+      >
+        <div
+          style="padding-bottom: 10px;"
+        >
+          <table
+            class="sc-jXbUNg fSYcOH"
+          >
+            <thead>
+              <tr>
+                <td />
+                <th
+                  class="sc-kAyceB JQBoV"
+                >
+                  <div
+                    class="sc-gsFSXq dTCnZq"
+                  >
+                    Operator
+                  </div>
+                </th>
+                <th
+                  class="sc-kAyceB JQBoV"
+                >
+                  <div
+                    class="sc-gsFSXq dTCnZq"
+                  >
+                    Headset Display
+                  </div>
+                </th>
+                <th
+                  class="sc-kAyceB JQBoV"
+                >
+                  <div
+                    class="sc-gsFSXq dTCnZq"
+                  >
+                    3G Availability
+                  </div>
+                </th>
+                <td />
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                class="sc-imWYAI cbfsAv"
+              >
+                <td />
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  *Celcom Axiata (LTE)
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  CELCOM / My Celcom / 502 19
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  Yes
+                </td>
+                <td />
+              </tr>
+              <tr
+                class="sc-imWYAI cbfsAv"
+              >
+                <td />
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  *DiGi Telecom (LTE)
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  DiGi 1800 / DiGi / MYMY18
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  Yes
+                </td>
+                <td />
+              </tr>
+              <tr
+                class="sc-imWYAI cbfsAv"
+              >
+                <td />
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  *Maxis (LTE)
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  U Mobile / MYS 18 / MY 18
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  Yes
+                </td>
+                <td />
+              </tr>
+              <tr
+                class="sc-imWYAI cbfsAv"
+              >
+                <td />
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  U Mobile (LTE)
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  U Mobile / MYS 18 / MY 18
+                </td>
+                <td
+                  class="sc-eqUAAy iuyVfC"
+                >
+                  Yes
+                </td>
+                <td />
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-dhKdcB gZGTGF"
+    >
+      <div
+        style="padding-bottom: 10px;"
+      >
+        <table
+          class="sc-jXbUNg fSYcOH"
+        >
+          <thead>
+            <tr>
+              <td />
+              <th
+                class="sc-kAyceB JQBoV"
+              >
+                <div
+                  class="sc-gsFSXq dTCnZq"
+                >
+                  Operator
+                </div>
+              </th>
+              <th
+                class="sc-kAyceB JQBoV"
+              >
+                <div
+                  class="sc-gsFSXq dTCnZq"
+                >
+                  Headset Display
+                </div>
+              </th>
+              <th
+                class="sc-kAyceB JQBoV"
+              >
+                <div
+                  class="sc-gsFSXq dTCnZq"
+                >
+                  3G Availability
+                </div>
+              </th>
+              <td />
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              class="sc-imWYAI cbfsAv"
+            >
+              <td />
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                *Celcom Axiata (LTE)
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                CELCOM / My Celcom / 502 19
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                Yes
+              </td>
+              <td />
+            </tr>
+            <tr
+              class="sc-imWYAI cbfsAv"
+            >
+              <td />
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                *DiGi Telecom (LTE)
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                DiGi 1800 / DiGi / MYMY18
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                Yes
+              </td>
+              <td />
+            </tr>
+            <tr
+              class="sc-imWYAI cbfsAv"
+            >
+              <td />
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                *Maxis (LTE)
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                U Mobile / MYS 18 / MY 18
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                Yes
+              </td>
+              <td />
+            </tr>
+            <tr
+              class="sc-imWYAI cbfsAv"
+            >
+              <td />
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                U Mobile (LTE)
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                U Mobile / MYS 18 / MY 18
+              </td>
+              <td
+                class="sc-eqUAAy iuyVfC"
+              >
+                Yes
+              </td>
+              <td />
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

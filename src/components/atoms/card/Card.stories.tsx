@@ -14,6 +14,6 @@ type Story = StoryObj<typeof Card>;
 
 export const Default: Story = {
   args: {
-    content : <div style={{ padding: 20 }}>Card Content</div>
+    children : <div style={{ padding: 20 }}>Card Content</div>
   },
 };

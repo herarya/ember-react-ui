@@ -9,15 +9,26 @@ const RadioStyled = styled.input`
   appearance: none;
   border-radius: 50%;
 
-  &:checked{
+  &:checked:not(:disabled) {
     border-color: ${({ theme }) => theme.colors.primary};
     border-width: 8px;
   }
 
+  &:disabled:not(:checked) {
+    background-color: ${({ theme }) => theme.colors.secondary};
+  }
+
+  &:disabled:checked {
+    background-color: ${({ theme }) => theme.colors.secondary};
+  }
+
   @media only screen and (max-width: ${({ theme: { breakpoints } }) =>
       breakpoints.mobile}) {
-        width: 24px;
-        height: 24px;
+    border-radius: 50%;
+    &:checked:not(:disabled) {
+      border-color: ${({ theme }) => theme.colors.primary};
+      border-width: 6px;
+    }
   }
 `;
 

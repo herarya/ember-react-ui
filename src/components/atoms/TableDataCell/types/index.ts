@@ -15,8 +15,8 @@ export type TableDataCellProps = {
    */
   variant: 'default' | 'responsive' | 'input';
   /**
-  * Used to set text align
+  * Aligns the content of the column, valid values are left, right and center.
   * @defaultValue left
   */
-  textAlign: 'left' | 'center' | 'right';
+  align?: 'left' | 'right' | 'center' | undefined | null;
 };

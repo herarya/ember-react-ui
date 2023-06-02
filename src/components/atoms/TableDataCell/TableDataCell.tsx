@@ -5,10 +5,10 @@ const TableDataCell: React.FC<TableDataCellProps> = ({
   title,
   children,
   variant,
-  textAlign = 'left',
+  align,
 }: TableDataCellProps) => {
   return (
-    <TableDataCellStyled textAlign={textAlign} variant={variant}>
+    <TableDataCellStyled variant={variant} textAlign={align}>
       {!!title && variant === 'responsive' && <label>{title}: </label>}
       {children}
     </TableDataCellStyled>

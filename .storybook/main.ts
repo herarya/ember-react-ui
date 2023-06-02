@@ -12,7 +12,8 @@ const config: StorybookConfig = {
     "@storybook/addon-interactions",
     "@storybook/addon-a11y",
     "@storybook/addon-toolbars",
-    "@storybook/addon-coverage"
+    "@storybook/addon-viewport",
+    "@storybook/addon-coverage",
   ],
   "framework": {
     "name": "@storybook/react-webpack5",

@@ -10,7 +10,7 @@ type Itd = {
   * Used to set text align
   * @defaultValue left
   */
-   textAlign: 'left' | 'center' | 'right';
+  textAlign?: 'left' | 'right' | 'center' | undefined | null;
 }
 
 export const TableDataCellStyled = styled.td<Itd>`
@@ -41,8 +41,7 @@ export const TableDataCellStyled = styled.td<Itd>`
     text-align: ${({ textAlign }) => textAlign};
     padding-top: 8px;
     padding-bottom: 5px;
-    padding-right: 16px;
-
+    padding-right: ${({ textAlign }) => textAlign === 'left' ? '16px' : '0'};
 
     ${({ variant }) =>
       variant === 'responsive'

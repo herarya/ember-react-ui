@@ -1,5 +1,5 @@
 import { composeStories } from '@storybook/react';
-import { fireEvent, render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import * as stories from '../SortButton.stories';
 
 const { Default, Up, Down } = composeStories(stories);

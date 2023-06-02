@@ -13,6 +13,13 @@ export default meta;
 
 type Story = StoryObj<typeof Radio>;
 
+export const Default: Story = {
+  args: {
+    value: 'radio-value-here',
+    onChange : action('onChange')
+  },
+};
+
 export const Checked: Story = {
   args: {
     isChecked: true,
@@ -25,7 +32,6 @@ export const UnChecked: Story = {
   args: {
     isChecked: false,
     value: 'radio-value-here',
-    onChange : action('onChange')
   },
 };
 

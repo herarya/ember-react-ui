@@ -3,7 +3,11 @@ import SortDownIcon from './../images/Sorting_Down.png';
 import SortUpIcon from './../images/Sorting_Up.png';
 import SortNeturalIcon from './../images/Sorting_Netural.png';
 
-export const SortButtonStyled = styled.button`
+type IBtn = {
+  testId?: string;
+}
+
+export const SortButtonStyled = styled.button<IBtn>`
   border: none;
   cursor: pointer;
   height: 40px;
@@ -23,7 +27,6 @@ export const SortButtonStyled = styled.button`
   &:focus {
     background-color: ${({ theme }) => theme.colors.accent};
     border-radius: 50%;
-    background-opa
   }
 `;
 
