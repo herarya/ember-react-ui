@@ -3,7 +3,7 @@
 <div align="center">
 
 UI Design System for your modern React apps. Built with styled-components 💅 </br>
-<img src="https://github.com/herarya/ember-react-ui/blob/main/screenshots/screenshot1.png" width="200">
+<img src="https://github.com/herarya/ember-react-ui/blob/main/screenshots/screenshot1.png" width="500">
 
 </div>
 
@@ -15,16 +15,16 @@ Open [https://codesandbox.io/p/sandbox/emberui-currying-glitter-v33ucg-v33ucg](h
 
 
 You can also change the theme\
-<img src="https://github.com/herarya/ember-react-ui/blob/main/screenshots/screenshot2.png" width="200">
+<img src="https://github.com/herarya/ember-react-ui/blob/main/screenshots/screenshot2.png" width="500">
 
 for run script in codesandbox:\
-<img src="https://github.com/herarya/ember-react-ui/blob/main/screenshots/screenshot3.png" width="200">
+<img src="https://github.com/herarya/ember-react-ui/blob/main/screenshots/screenshot3.png" width="500">
 
 test passed :\
-<img src="https://github.com/herarya/ember-react-ui/blob/main/screenshots/screenshot4.png" width="200">
+<img src="https://github.com/herarya/ember-react-ui/blob/main/screenshots/screenshot4.png" width="500">
 
 code coverage :\
-<img src="https://github.com/herarya/ember-react-ui/blob/main/screenshots/screenshot5.png" width="200">
+<img src="https://github.com/herarya/ember-react-ui/blob/main/screenshots/screenshot5.png" width="500">
 
 
 ### `yarn start`
