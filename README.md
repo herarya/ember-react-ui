@@ -2,11 +2,30 @@
 
 <div align="center">
 
-UI Design System for your modern React apps. Built with styled-components 💅
-![6.png](./screenshots/screenshot1.png =300x)
-
+UI Design System for your modern React apps. Built with styled-components 💅 </br>
+<img src="https://github.com/herarya/ember-react-ui/blob/main/screenshots/screenshot1.png" width="200">
 
 </div>
+
+
+### <h2>Codesandbox</h1>
+
+Runs the app in codesanbox\
+Open [https://codesandbox.io/p/sandbox/emberui-currying-glitter-v33ucg-v33ucg](https://codesandbox.io/p/sandbox/emberui-currying-glitter-v33ucg-v33ucg) to view codesandbox
+
+
+You can also change the theme\
+<img src="https://github.com/herarya/ember-react-ui/blob/main/screenshots/screenshot2.png" width="200">
+
+for run script in codesandbox:\
+<img src="https://github.com/herarya/ember-react-ui/blob/main/screenshots/screenshot3.png" width="200">
+
+test passed :\
+<img src="https://github.com/herarya/ember-react-ui/blob/main/screenshots/screenshot4.png" width="200">
+
+code coverage :\
+<img src="https://github.com/herarya/ember-react-ui/blob/main/screenshots/screenshot5.png" width="200">
+
 
 ### `yarn start`
 
@@ -32,6 +51,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+### `yarn build`
 
 ## Learn More
 
